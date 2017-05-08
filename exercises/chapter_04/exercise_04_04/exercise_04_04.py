@@ -1,6 +1,4 @@
-# 4-5. Summing a Million
+# 4-4. One Million
 
-numbers = list(range(1, 1000001))
-print("min = ", min(numbers))
-print("max = ", max(numbers))
-print("sum = ", sum(numbers))
+for number in range(1, 1000001):
+	print(number)
